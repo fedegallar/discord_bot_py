@@ -40,4 +40,4 @@ class MyClient(discord.Client):
 
 
 client = MyClient()
-client.run(os.environ.get('DISCORD_TOKEN'))
+client.run(os.getenv('DISCORD_TOKEN'))

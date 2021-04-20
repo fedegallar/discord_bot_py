@@ -1,3 +1,5 @@
+import os
+
 from time import sleep
 
 import discord
@@ -38,4 +40,4 @@ class MyClient(discord.Client):
 
 
 client = MyClient()
-client.run("NDc0OTMzMTI2NzM3NTU5NTcx.W2RZ8Q.TTr5vkx96oOroPKxwqcsngfYcJU")
+client.run(os.environ.get('DISCORD_TOKEN'))

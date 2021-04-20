@@ -1,4 +1,5 @@
 FROM python:3.6-slim-buster
+ENV DISCORD_TOKEN=NDc0OTMzMTI2NzM3NTU5NTcxW2RZ8QBGA5bir4oNiqRwMOTR315RSF6So
 RUN apt -y update
 RUN apt -y install ffmpeg
 WORKDIR /app
